@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            /* margin-bottom: 20px; */
+        }
+
+        .gaming-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: px;
+            /* margin-bottom: 20px; */
+        }
+
+        .option {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .option img {
+            width: 110px;
+            height: 100px;
+            object-fit: cover;
+            background-color: #6a1b9a;
+        }
+
+        .option p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .shop-link {
+            display: block;
+            margin-top: 20px;
+            color: #0073e6;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .shop-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Level up your gaming</h2>
+        <div class="gaming-options">
+            <div class="option">
+                <img src="Images/Box Image/b11.jpg" alt="PC gaming">
+                <p>PC gaming</p>
+            </div>
+            <div class="option">
+                <img src="Images/Box Image/b22.jpg" alt="Xbox">
+                <p>Xbox</p>
+            </div>
+            <div class="option">
+                <img src="Images/Box Image/b33.jpg"  width="100px" alt="PlayStation">
+                <p>PlayStation</p>
+            </div>
+            <div class="option">
+                <img src="Images/Box Image/b44.jpg" alt="Nintendo Switch">
+                <p>Nintendo Switch</p>
+            </div>
+        </div>
+        <a href="#" class="shop-link">Shop the latest in gaming</a>
+    </div>
+</body>
+
+</html>

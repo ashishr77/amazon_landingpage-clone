@@ -1,0 +1,248 @@
+/* common Propety */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 16px;
+}
+.border{
+    border: 1px solid transparent;
+    padding: 4px;
+}
+.border:hover{
+    border: 1px solid white;
+    padding: 4px;
+}
+body {
+    background-color: rgb(224, 224, 224);
+    min-width: max-content;
+}
+/*--------------------------Story Start -------------------------------*/
+.nav {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    min-width: min-content;
+}
+
+.logo img {
+    height: 35px;
+}
+
+/* ----------------------------------Location ------------------------------*/
+.addr1 {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+}
+
+.iconl {
+    padding: 3px;
+    position: relative;
+    top: 7px;
+    margin-right: 2px;
+}
+
+#india {
+    display: flex
+}
+
+/*--------------------------------------- Search Bar ------------------------*/
+.search {
+    display: flex;
+    background-color: pink;
+    height: 35px;
+    width: 620px;
+    border-radius: 4px;
+    padding: 1px;
+    font-size: 1rem;
+    justify-content: space-evenly;
+}
+
+.search:focus-within {
+    border: 1px solid rgb(255, 217, 81);
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 60px;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    font-size: 0.85rem;
+}
+.search-input {
+    border: none;
+    width: 100%;
+    min-width: 50%;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+.iconS {
+    display: flex;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background-color: rgb(255, 195, 85);
+}
+
+/*----------------------------------- card styling --------------------------------  */
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    height: 45px;
+    width: 45px;
+}
+.cart h4{
+    position: relative;
+    top: 7px;
+    font-size: 0.85rem;
+}
+
+/* ----------------------Panel styling -------------- */
+.panel{
+    display: flex;
+    background-color: #363636;
+    color: white;
+    font-size: 0.85rem;
+    height: 39px;
+    align-items: center;
+}
+.all{
+    display: flex; 
+}
+.menu{
+    margin-right: 3px;
+}
+/* -----------------------------------Background Image --------------------------------------- */
+.bg-img {
+    background-image: url("Images/head.jpg");
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.bg-img span:hover{
+    text-decoration: underline;
+}
+.img-text {
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 45px;
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text span {
+    color: rgb(0, 51, 255);
+}
+ /* -------------------------------content styling---------------------------------------- */
+ .content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(224, 224, 224);
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+ .box{
+    height:400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+ }
+ .box-img{
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-size: cover;
+ }
+ .contentbox{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .contentbox h2{
+    font-size: 1.1rem;
+ }
+ .contentbox p{
+    font-size: 1rem;
+ }
+
+ /*-------------------- footer : Back to top------------------------- */
+ .panel-end-1{
+    height: 50px;
+    background-color: #374750;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+ }
+/* --------------------------------2nd footer : Links -------------------------------------------- */
+ .panel-end-2{
+    display: flex;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    height: 500px;
+    flex-wrap: wrap;
+   
+ }
+ .panel-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;   
+ }
+ a{
+    display: block;
+    color: rgb(205, 205, 205);
+    text-decoration: none;
+    font-size: 0.7rem;
+    line-height: 25px;
+
+ }
+ a:hover{
+    text-decoration:underline
+ }
+ .panel-box h3{
+    color: white;
+ }
+/*------------------------------------------------copyright----------------------------------- */
+.copyright{
+    background-color: #131A22;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.7rem;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+.copyright span{
+    display: inline;
+}
